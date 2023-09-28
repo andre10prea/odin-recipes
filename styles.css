@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(252, 252, 252, 0.815);
+    font-size: 22px;
+    margin: 20px;
+}
+
+.index-text {
+    display: flex; 
+    color: hsl(120, 100%, 29%);    
+    margin: 20px;        
+}
+
+.index-pics {
+    display: flex; 
+    width: 200px;
+    height: 150px;
+    float: center;    
+    padding: 10px;       
+}
+
+.back-button {
+    color: aliceblue;
+    background-color: rgb(145, 14, 127);
+    border-color: yellow;
+    padding: 10px 20px 30px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.title {    
+    padding: 30px;
+    text-align: center;
+    color: rgb(47, 47, 245);
+    background-color: rgb(219, 219, 219);
+    border-radius: 30px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #00ff15;
+}
+
+.pics {
+    width: 500px;
+    height: 375px;
+    border-radius: 50px;
+    float: left;
+    padding-right: 20px;
+}
+
+.intro {
+    font-size: 42px;
+    font-weight: bold;
+    color:rgb(49, 26, 30);
+}
+
+.ingredients-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.ingredients-list {
+    list-style-type: "→ ";
+    margin-left: 80px;
+}
