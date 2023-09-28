@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza recipe</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     
     <form>
-        <input type="button" value="Go back!" onclick="history.back()">
+        <input class="back-button" type="button" value="Go back!" onclick="history.back()">
     </form>
     
-    <h1>Easy Homemade Pizza Dough</h1>
-    <img src="pizza.jpg" alt="a plate of awesome made pizza" width="500" height="375">
-        <p>This is a great recipe when you don't want to wait for the dough to rise. 
-            You just mix it and allow it to rest for 5 minutes and then it's ready to go! It yields a soft, chewy crust.
-        </p>
+    <h1 class="title">Easy Homemade Pizza Dough</h1>
+    
+    <p class="intro" style="padding-bottom: 100px;">
+    <img src="pizza.jpg" alt="a plate of awesome made pizza" class="pics">
+            This is a great recipe when you don't want to wait for the dough to rise. 
+            <br>You just mix it and allow it to rest for 5 minutes and then it's ready to go! 
+            <br> It yields a soft, chewy crust.
+    </p>
 
-        <h3>Pizza Crust Ingredients: </h3>
-            <ul>
+        <h3 class="ingredients-title">Pizza Crust Ingredients: </h3>
+            <ul class="ingredients-list">
                 <li>Yeast: Active dry yeast is a leavening agent, which means it's the ingredient that causes the pizza dough to rise.</li>
                 <li>Sugar: To activate your yeast, you'll need to dissolve it in warm water with a teaspoon of sugar. 
                     The sugar gives the yeast something to eat and speeds up the activation process. 
@@ -61,6 +65,5 @@
                     Place the ball in a freezer-safe container labeled with the date. Freeze for about three months.</p>
 
                 <p>To thaw the dough, simply transfer it to the fridge the night before you plan to use it.</p>
-
 </body>
 </html>
