@@ -8,8 +8,7 @@ body {
 .index-text {
     display: flex; 
     color: hsl(120, 100%, 29%);    
-    margin: 20px;
-    margin-right: 20px;    
+    margin: 20px;        
 }
 
 .index-pics {
@@ -49,7 +48,7 @@ body {
 .intro {
     font-size: 42px;
     font-weight: bold;
-    color:rgb(49, 26, 30)    
+    color:rgb(49, 26, 30);
 }
 
 .ingredients-title {
